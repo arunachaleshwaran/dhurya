@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+
+   <!--- basic page needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>Dhurya'19</title>
+	<meta name="description" content="">  
+	<meta name="author" content="">
+
+   <!-- mobile specific metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+ 	<!-- CSS
+   ================================================== -->
+   <link rel="stylesheet" href="css/base.css">
+   <link rel="stylesheet" href="css/vendor.css">  
+   <link rel="stylesheet" href="css/main.css">  
+
+   <!-- script
+   ================================================== -->
+	<script src="js/modernizr.js"></script>
+	<script src="js/pace.min.js"></script>
+
+   <!-- favicons
+	================================================== 
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
+
+	
+	<style>
+* {box-sizing: border-box;}
+
+body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  overflow: hidden;
+  background-color: white;
+  
+  padding: 20px 10px;
+
+}
+  
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+.header #myLinks {
+  display: none;
+}
+
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.header a.active {
+  background-color: #ddd;
+  color: black;
+}
+
+.header-right {
+  float: right;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .header-right {
+    float: none;
+  }
+}
+</style>
+
+</head>
+
+<body id="top">
+
+<div class="header">
+  <a href="#default" class="logo" ><img src = "images\logo.jpg" width ="200px" height="75px" ></a>
+  <div class="header-right">
+  <div id="myLinks">
+    <a class="active" href="#home">Home</a>
+    
+    <a href="#about">About</a>
+	<a href="#portfolio">Events</a>
+	
+	<a href ="https://goo.gl/forms/HruEDj51SNMTZC0t1" > Register </a>
+	<a href="#contact">Contact</a>
+	</div>
+		
+  </div>
+ <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a> 
+</div>
+
+<div >
+
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+
+
+
+	<!-- header 
+   ================================================== -->
+   
+	<!--</header> <!-- end header -->  
+
+
+   <!-- home
+   ================================================== -->
+   <section id="home">
+
+   	<div class="overlay"></div>
+
+   	<div class="home-content-table">	
+		   <div class="home-content-tablecell">
+		   	<div class="row">
+		   		<div class="col-twelve">		   			
+			  		
+			  				<h1 class="animate-intro">DHURYA'19</h1>
+				  			<font color ="white">
+							-an Intercollegiate Literary Fest.
+				  			</font>	
+
+				  			<div class="more animate-intro">
+				  				<a class="smoothscroll button stroke" href="#about">
+				  					Learn More
+				  				</a>
+								<div class=" clock_sec d-flex flex-row justify-content-between" id="clockdiv">
+				                    <div class="clockinner">
+				                        <span class="days"></span>
+				                        Days
+										<span class="hours"></span>
+				                        Hours
+										<span class="minutes"></span>
+				                        Minutes
+										<span class="seconds"></span>
+				                      Seconds
+				                    
+		
+
+				                    </div>
+				                    
+
+				                </div>
+						
+
+
+				  			</div>	
+
+
+				  			
+						
+
+			  		</div> <!-- end col-twelve --> 
+		   	</div> <!-- end row --> 
+		   </div> <!-- end home-content-tablecell --> 		   
+		</div> <!-- end home-content-table -->
+
+		<ul class="home-social-list">
+	      <li class="animate-intro">
+	        	<a href="#"><i class="fa fa-facebook-square"></i></a>
+	      </li>
+	      
+	      <li class="animate-intro">
+	        	<a href="#"><i class="fa fa-instagram"></i></a>
+	      </li>
+		  <li class="animate-intro">
+	        	<a href="#"><i class="fa fa-twitter"></i></a>
+	      </li>
+              
+              
+	   </ul> <!-- end home-social-list -->	
+
+		<div class="scrolldown">
+			<a href="#about" class="scroll-icon smoothscroll">		
+		   	Scroll Down		   	
+		   	<i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+			</a>
+		</div>			
+   
+   </section> <!-- end home -->
+
+
+   <!-- about
+   ================================================== -->
+   <section id="about">
+
+   	<div class="row about-wrap">
+   		<div class="col-full">
+
+   			<div class="about-profile-bg"></div>
+
+				<div class="intro">
+					<h3 class="animate-this">ABOUT US</h3>
+	   			<p class="lead animate-this"><span>Youth Parliament</span>  is a dynamic and vibrant forum started with the objective of nurturing sensible citizens to the country. A non-political club functioning at Dr. Mahalingam college of Engineering and Technology, Pollachi. Started in the year 2010 this club is more than 8 years old and still functioning at it very best from the start.  Our year around activities include events crafted precisely to bring out the desired outcomes.  To say a few Speechkraft , Parivarthan, Dhurya, Epoch, Y Talks etc.  Apart from this we conduct weekly sessions wherein enthusiastic young leaders use this platform to enrich and shine.
+
+
+</p>	
+</p>
+				</div>   
+
+   		</div> <!-- end col-full  -->
+   	</div> <!-- end about-wrap  -->
+
+   </section> <!-- end about -->
+
+
+   <!-- about
+   ================================================== -->
+   <section id="services">
+
+   	<div class="overlay"></div>
+   	<div class="gradient-overlay"></div>
+   	
+   	<div class="row narrow section-intro with-bottom-sep animate-this">
+   		<div class="col-full">
+   			
+   				<h3>DHURYA</h3>
+   			   <h1>What It Is.</h1>
+   			
+   			   <p class="lead"></p>
+			   <p class="lead animate-this">Words have a unique power of transforming seemingly boring days to extraordinary ones. Here comes <span>Dhurya</span> an intercollegiate literary fest to celebrate the power of words! Dhurya is the annual literary fest organized by Youth parliament of Dr. Mahalingam College of Engineering and Technology. It’s the amalgamation of lit, wit and fun. With events that keep you on your toes the whole day, Dhurya is the destination for every lit-lover. Things get better with time and Dhurya is no different. Stepping into the fourth year, Dhurya is in gearing up to host one big Fest worth remembering! And yes, being a part of Dhurya is just a click away! So yes, This March, make sure you hitch your wagons to the stars with Dhurya 2k19!
+
+
+   			
+   	   </div> <!-- end col-full -->
+   	</div> <!-- end row -->
+
+   	
+	      </div> <!-- end services-list -->
+   		
+   	</div> <!-- end services-content -->   			
+
+   </section> <!-- end services -->
+
+
+   <!-- portfolio
+   ================================================== -->
+   <section id="portfolio">
+   	
+   	<div class="intro-wrap">
+
+   		<div class="row narrow section-intro with-bottom-sep animate-this">
+	   		<div class="col-twelve">
+	   			
+		   		<h1>EVENTS </h1>  	
+					<center> <font color="white" > <h3> DAY 1 </h3> </font> </center>
+		   		
+		   		</div>   		
+	   	</div> <!-- end row section-intro -->   		
+
+   	</div> <!-- end intro-wrap -->   	
+
+   	<div class="row portfolio-content">
+   		<div class="col-twelve">
+   			<div id="folio-wrap" class="bricks-wrapper">					
+
+   				<div class="brick folio-item">
+	               <div class="item-wrap animate-this" data-src="images/portfolio/gallery/pic/1.jpg" data-sub-html="#01" > 	
+	                  <a href="#" class="overlay">
+	                  	<img src="images/portfolio/gallery/pic/1.jpg" alt="">	                     
+	                     <div class="item-text">
+	                     	<span class="folio-types">
+		     					      
+		     					   </span>
+		     					   <h3 class="folio-title">Pen Down Your Thoughts</h3>	     					   
+		     					</div>                                        
+	                  </a>
+	                  
+	               </div> <!-- end item-wrap -->
+						
+						<div id="01" class='hide'>
+							<h4>Pen Down Your Thoughts</h4>
+							<p>“Creativity is intelligence having fun.”
+							</p></div>
+	        		</div> <!-- end folio-item -->
+
+	        		<div class="brick folio-item">
+	               <div class="item-wrap animate-this" data-src="images/portfolio/gallery/pic/1.jpg" data-sub-html="#02"> 	
+	                  <a href="#" class="overlay">
+	                  	<img src="images/portfolio/gallery/pic/1.jpg" alt="Debate">	                     
+	                     <div class="item-text">
+	                     	<span class="folio-types">
+		     					     
+		     					   </span>
+		     					   <h3 class="folio-title">Debate</h3>  	     					   
+		     					</div>                                        
+	                  </a>
+	                  
+	               </div> <!-- end item-wrap -->
+
+	               <div id="02" class='hide'>
+							<h4>Debate</h4>
+							<p> "Quotes"</p>
+							</div>	               
+	        		</div> <!-- end folio-item -->
+
+	        		<div class="brick folio-item">
+	               <div class="item-wrap animate-this" data-src="images/portfolio/gallery/pic/1.jpg" data-sub-html="#03" >   	
+	                  <a href="#" class="overlay">
+	                  	<img src="images/portfolio/gallery/pic/1.jpg" alt="Jam">	                     
+	                     <div class="item-text">	                     		     					    
+		     					   <span class="folio-types">
+
+		     					   </span>
+		     					   <h3 class="folio-title">JAM</h3>
+		     					</div>                                        
+	                  </a>
+	                  
+	               </div> <!-- end item-wrap -->	
+
+	               <div id="03" class='hide'>
+							<h4>JAM & Tap JAM</h4>
+							<p> "Quote"</p>
+							</div>               
+	        		</div> <!-- end folio-item -->
+
+					<div class="brick folio-item">
+	               <div class="item-wrap animate-this"  data-src="images/portfolio/gallery/pic/1.jpg"  data-sub-html="#04" >
+	                  <a href="#" class="overlay">
+	                  	<img src="images/portfolio/gallery/pic/1.jpg" alt="Shipwreck">	                     
+	                     <div class="item-text">	     					    
+		     					   <span class="folio-types">
+		     					  
+		     					   </span>
+		     					   <h3 class="folio-title">Shipwreck</h3>
+		     					</div>                                        
+	                  </a>
+	                  
+	               </div> <!-- end item-wrap -->
+
+	               <div id="04" class='hide'>
+							<h4>SHIPWRECK</h4>
+							<p>"Speak for your Life."</p>
+							</div>  	               
+	        		</div> <!-- end folio-item -->
+
+					<div class="brick folio-item">
+	               <div class="item-wrap animate-this"  data-src="images/portfolio/gallery/pic/1.jpg"  data-sub-html="#05" >  	
+	                  <a href="#" class="overlay">
+	                  	<img src="images/portfolio/gallery/pic/1.jpg" alt="Mr.&Ms.">	                     
+	                     <div class="item-text">	     					    
+		     					   
+		     					   <h3 class="folio-title"> Haiku JAM & Quick Wit</h3>
+		     					</div>                                        
+	                  </a>
+	                 
+	               </div> <!-- end item-wrap -->
+
+	               <div id="05" class='hide'>
+							<h4> Haiku JAM & Quick Wit </h4>
+							<p>"Quote" </p.
+							</div>	               
+	        		</div> <!-- end folio-item -->
+	           
+   			</div> <!-- end folio-wrap -->
+   		</div> <!-- end twelve -->
+   	</div> <!-- end portfolio-content -->   	
+
+   </section>  <!-- end portfolio -->
+
+
+   <!-- Testimonials Section
+   ================================================== -->
+   <section id="testimonials">
+
+   	<div class="row">
+   		<div class="col-twelve">
+   			<h2 class="animate-this"> DAY 2</h2>
+   		</div>   		
+   	</div>   	
+
+      <div class="row flex-container">
+    
+         <div id="testimonial-slider" class="flex-slider animate-this">
+
+            <ul class="slides">
+
+               <li>
+			   <center> <h2> <p > <font color = #07617d > SUPER 11 </font> </p> </h2> </center>
+                  <p>PRELIMS.<br>
+				  Every participant will be given a statistical topic to interpret the data given and 
+				  to find the solution for the problem. 
+				  From this 8 teams consisting of 4 members in each team will be selected for the finals.
+<br>
+<p>FINALS.<br>
+				  The finals is an auction event.
+				  A total of 8 teams with will be participating. 
+				  Each team will be provided with some amount and they need to buy players
+				  for their team with some constraints to follow. The side with best team wins the auction.  </p>
+
+                  </p>
+
+                  </p> 
+
+                  <div class="testimonial-author">
+                    	
+                    	<div class="author-info">
+                    		
+                    		<span class="position"></span>
+                    	</div>
+                  </div>                 
+             	</li> <!-- end slide -->
+
+               <li>
+			   <center> <h2> <p > <font color = #07617d > Mr. & Ms. DHURYA</font> </p> </h2> </center>
+               
+                  <img src="images/portfolio/gallery/pic/1.jpg" alt="Mr.&Ms.">	                     
+	                    
+				    
+
+                  </p>
+
+               	<div class="testimonial-author">
+                    	
+                    	<div class="author-info">
+                    		
+                    		<span></span>
+                    	</div>
+                  </div>                                         
+               </li> <!-- end slide -->
+
+            </ul> <!-- end slides -->
+
+         </div> <!-- end testimonial-slider -->         
+        
+      </div> <!-- end flex-container -->
+
+   </section> <!-- end testimonials -->
+
+   <section id="contact">
+
+      <div class="overlay"></div>
+
+		<div class="row narrow section-intro with-bottom-sep animate-this">
+   		<div class="col-twelve">
+   			<h3>CONTACT</h3>
+   			
+   	<div class="row contact-content">
+
+   		<div class="col-seven tab-full animate-this">
+
+   			
+         </div> <!-- end col-seven --> 
+
+         <div class="col-four tab-full contact-info end animate-this">
+
+         	<h5>Contact Information</h5>
+
+         	<div class="cinfo">
+	   			<h6>Where to Find Us</h6>
+	   			<p>
+	            	Dr.Mahalingam College of Engineering and Technology<br>
+	            	Pollachi<br>
+	            	
+	            </p>
+	   		</div> <!-- end cinfo -->
+
+	   		<div class="cinfo">
+	   			<h6>Email Us At</h6>
+	   			<p>
+	   				mcetyp@gmail.com			     
+				   </p>
+	   		</div> <!-- end cinfo -->
+
+	   		<div class="cinfo">
+	   			<h6>Call Us At</h6>
+	   			<p>
+	   				Prem Kumar (+91) 7904813372<br>
+				   	
+				   </p>
+	   		</div>
+
+         </div> <!-- end cinfo --> 
+
+   	</div> <!-- end row contact-content -->
+		
+	</section> <!-- end contact -->
+
+
+	<!-- footer
+   ================================================== -->
+	<footer>
+     	<div class="footer-main">
+
+   		<div class="row">  
+
+	      	<div class="col-five tab-full footer-about">       
+
+	            <h4 class="h05">Youth Parliament.</h4>
+
+	            <p>Youth Parliament is a non-political club functioning at Dr. Mahalingam College of Engineering and Technology, Pollachi. Weekly sessions which foster teamworking skills, leadership traits, softskills, creativity, social conscience, patriotism, Fortnightly Public Speaking Sessions (Y Talks), Monthly e-magazines, inter and intra collegiate literary fests, Mock Parliamentary sessions.. These are just a part of our activities.
+ </p>
+		      </div> <!-- end footer-about -->
+
+	      	<div class="col-three tab-full footer-social">
+
+	      		<h4 class="h05">Follow Us.</h4>
+
+	      		<ul class="list-links">
+	      			<li><a href="#">Facebook</a></li>
+						
+						<li><a href="#">Instagram</a></li>
+						<li><a href="#">Twitter</a></li>
+												
+					</ul>
+
+	      	</div> <!-- end footer-social -->  
+
+	      	
+	      </div> <!-- end row -->
+
+   	</div> <!-- end footer-main -->
+
+   	<div class="footer-bottom">
+
+      	<div class="row">
+
+      		<div class="col-twelve">
+	      		<div class="copyright">
+		         	<span>© Copyright Youth Parliament 2019.</span> 
+		         			         	
+		         </div>		               
+	      	</div>
+
+      	</div>   	
+
+      </div> <!-- end footer-bottom -->
+
+      <div id="go-top">
+		   <a class="smoothscroll" title="Back to Top" href="#top">
+		   	<i class="fa fa-long-arrow-up" aria-hidden="true"></i>
+		   </a>
+		</div>		
+   </footer>
+
+   <div id="preloader"> 
+    	<div id="loader"></div>
+   </div> 
+
+   <!-- Java Script
+   ================================================== --> 
+   <script src="js/jquery-2.1.3.min.js"></script>
+   <script src="js/plugins.js"></script>
+   <script src="js/main.js"></script>
+   <script src="js/countdown.js"></script>
+			
+
+</body>
+
+</html>
